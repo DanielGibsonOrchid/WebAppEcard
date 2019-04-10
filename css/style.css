@@ -985,7 +985,7 @@ a.btn:hover {
 }
 #main #personalise fieldset {
   height: 284px;
-  padding-left: 30px;
+  padding-left: 18px;
   padding-right: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -993,7 +993,7 @@ a.btn:hover {
 }
 #main #personalise fieldset ul {
   margin-left: 0;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 #main #personalise fieldset ul li {
   list-style: none;
@@ -1005,35 +1005,43 @@ a.btn:hover {
 #main #personalise fieldset ul li label {
   font-family: 'AIAEverest-Regular';
   font-weight: 400;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
   float: left;
-  line-height: 34px;
+  line-height: 35px;
   display: block;
   margin-right: 5px;
 }
 #main #personalise fieldset ul li input[type=text] {
-  background: url('../img/interface/white-line-small-v2.png') 0 bottom repeat-x;
+  background: url('../img/interface/black-line-small-v2.png') 0 bottom repeat-x;
   border-left: none;
   border-top: none;
   border-right: none;
   border-bottom: none;
   font-size: 12px;
-  color: #ffffff;
-  background-size: 30px;
+  color: #000000;
   max-width: 402px;
 }
 #main #personalise fieldset ul li#tagline-txt {
   width: 100%;
 }
+#main #personalise fieldset ul li#tagline-txt-wrap {
+  font-family: 'AIAEverest-Regular';
+  color: #000000;
+  font-weight: bold;
+}
+#tagline-txt {
+  position: absolute !important;
+  visibility: hidden;
+}
 #main #personalise fieldset ul li#tagline-txt input[type=text] {
   font-family: 'AIAEverest-Regular';
-  color: #ffffff;
+  color: #000000;
   white-space: nowrap;
   font-size: 13px;
-  line-height: 34px;
+  line-height: 18px;
   text-transform: none !important;
   background-image: none !important;
   width: 100%;
@@ -1049,9 +1057,9 @@ li#tagline-txt input[type=text] {
   font-weight: bold;
   font-style: italic;
   line-height: 31px;
-  height: 31px;
+  height: 22px;
   max-width: 271px;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 #main #personalise fieldset ul li#reci-name input[type=text] {
   width: 308px;
@@ -1059,11 +1067,17 @@ li#tagline-txt input[type=text] {
 #main #personalise fieldset ul li#sender-name input[type=text] {
   width: 260px;
 }
+#main #personalise fieldset ul li#sender-name input#sender-name_id {
+  padding-top: 0px;
+}
+#main #personalise fieldset ul li#sender-name label {
+  line-height: 24px;
+}
 #main #personalise fieldset ul li textarea {
   background: transparent;
-  width: 310px;
+  width: 290px;
   height: 135px;
-  color: #ffffff;
+  color: #000000;
   font-family: 'AIAEverest-Regular';
   font-style: italic;
   border: none;
@@ -1071,106 +1085,106 @@ li#tagline-txt input[type=text] {
   border-left: none;
   border-right: none;
   font-size: 13px;
-  line-height: 25px;
+  line-height: 27px;
   overflow: hidden;
-  background: url('../img/interface/white-lines-v6.png') repeat-y 0 0;
+  background: url('../img/interface/black-lines-v2.png') repeat-y 0 0;
   font-weight: bold;
 }
 #main #personalise fieldset.collaborate {
-  background: url('../img/interface/first-ecard-background.png') 0 0 no-repeat;
+  background: url('../img/interface/first-ecard-background@2.jpg') 0 0 no-repeat;
 }
 #main #personalise fieldset.collaborate input[type=text]:-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.collaborate input[type=text]::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.collaborate input[type=text]:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.collaborate input[type=text]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.collaborate textarea:-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.collaborate textarea::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.collaborate textarea:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.collaborate textarea::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive {
-  background: url('../img/interface/second-ecard-background.png') 0 0 no-repeat;
+  background: url('../img/interface/second-ecard-background@2.jpg') 0 0 no-repeat;
 }
 #main #personalise fieldset.drive input[type=text]:-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive input[type=text]::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive input[type=text]:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive input[type=text]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive textarea:-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive textarea::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive textarea:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.drive textarea::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity {
-  background: url('../img/interface/third-ecard-background.png') 0 0 no-repeat;
+  background: url('../img/interface/third-ecard-background@2.jpg') 0 0 no-repeat;
 }
 #main #personalise fieldset.integrity label {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 #main #personalise fieldset.integrity input[type=text]:-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity input[type=text]::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity input[type=text]:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity input[type=text]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity textarea:-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity textarea::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity textarea:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.integrity textarea::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 #main #personalise fieldset.play {
   background: url('../img/interface/play-ecard.png') 0 0 repeat-y;
 }
 #main #personalise fieldset.play label {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 #main #personalise fieldset.play input[type=text] {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 #main #personalise fieldset.play textarea {
-  color: #ffffff !important;
+  color: #000000 !important;
   background: url('../img/interface/black-lines.png') no-repeat 0 0;
 }
 #main #personalise fieldset.play ul li input[type=text] {
@@ -1180,13 +1194,13 @@ li#tagline-txt input[type=text] {
   background: url('../img/interface/wow-ecard.png') 0 0 repeat-y;
 }
 #main #personalise fieldset.wow label {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 #main #personalise fieldset.wow input[type=text] {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 #main #personalise fieldset.wow textarea {
-  color: #ffffff!important;
+  color: #000000!important;
   background: url('../img/interface/black-lines.png') no-repeat 0 0;
 }
 #main #personalise fieldset.wow ul li input[type=text] {
@@ -1264,10 +1278,10 @@ li#tagline-txt input[type=text] {
   border-radius: 2px;
   line-height: 28px;
   background-color: #ffffff;
-  padding-left: 5;
+  padding-left: 5px;
   border: 1px solid #D31044;
-  width: 137px;
-  background: url('../img/interface/dropdown-arrow.jpg') no-repeat 0 0;
+  width: 145px;
+  background: url('../img/interface/dropdown-arrow-v2.png') no-repeat 0 0;
 }
 #main #send ul li.recipient label {
   font-family: 'AIAEverest-Regular';

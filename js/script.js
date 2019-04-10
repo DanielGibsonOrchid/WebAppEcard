@@ -65,6 +65,7 @@
                         $(this).addClass('selected');
 
                         $taglineLabel.val($(this).text()).valid();
+                        $('#tagline-txt-wrap').text($(this).text());
                     }
                 })
 
@@ -92,7 +93,7 @@
                     if ($(this).val() === "@sovereign") {
                         $("#recipient-email-end").text("@sovereign.co.nz");
                     } else {
-                        $("#recipient-email-end").text("@aia.co.nz");
+                        $("#recipient-email-end").text("@aia.com");
                     }
                 });
 
@@ -100,7 +101,7 @@
                     if ($(this).val() === "@sovereign") {
                         $("#manager-email-end").text("@sovereign.co.nz");
                     } else {
-                        $("#manager-email-end").text("@aia.co.nz");
+                        $("#manager-email-end").text("@aia.com");
                     }
                 });
 
@@ -261,7 +262,7 @@
                         Comment: "Please enter comments" + errInd,
                         From: "Please enter sender's name" + errInd,
                         recipient_email: {
-                            required: "Please enter a valid @aia.co.nz or @sovereign.co.nz email" + errInd,
+                            required: "Please enter a valid @aia.com or @sovereign.co.nz email" + errInd,
                             emailPrefix: "Please enter a valid email" + errInd
                         }
                     }

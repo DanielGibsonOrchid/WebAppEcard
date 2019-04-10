@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Ecard.Default" EnableViewState="false" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   	<head>
@@ -65,7 +63,7 @@
 
 		<div id="main" role="main">
 
-			<div id="heading-text"><h1>Doing the right thing... in the right way... with the right people</h1></div>
+			<div id="heading-text"><h1>Do the right thing... in the right way... with the right people</h1></div>
 
 			<form runat="server" id="ecardform" method="post" enctype="multipart/form-data" accept-charset="UTF-8" autocomplete="off">
             <input type="hidden" name="returl" value="thankyou.aspx" />
@@ -77,7 +75,7 @@
 				<div class="rt">
 					<ul class="clearfix values" id="cards">
 						<li class="collaborate">
-							<a href="#" title="collaborate" id="collaborate_ecard"><h4>Doing the right thing</h4></a>
+							<a href="#" title="collaborate" id="collaborate_ecard"><h4>Do the right thing</h4></a>
 						</li>
 						<li class="drive">		
 							<a href="#" title="drive" id="drive_ecard"><h4>in the right way</h4></a>
@@ -158,6 +156,7 @@
 								<input type="text" id="recipient-name" value="" tabindex="1" name="To" placeholder="Recipient name" title="RECIPIENT NAME" />
 								</div> 
 							</li>
+							<li id="tagline-txt-wrap"></li>
 							<li id="tagline-txt">
 								<input type="text" value="" name="Tagline" onfocus="this.blur()" readonly />
 							</li>
@@ -201,18 +200,18 @@
 								<input type="text" id="recipient-email" tabindex="4" value="" placeholder="Recipient's email" title="RECIPIENT'S EMAIL" name="recipient_email">
 								</div>
 								<select id="aia-sovereign-address-1" name="end-of-email" class="dropdown-box">
-									<option value="@aia">@aia.co.nz</option>
+									<option value="@aia">@aia.com</option>
 									<option value="@sovereign">@sovereign.co.nz</option>
 								</select>
-								<label id="recipient-email-end" class="hide-email-label">@aia.co.nz</label>
+								<label id="recipient-email-end" class="hide-email-label">@aia.com</label>
                                 <div id="manager-email-id" class="input-holder">
                                     <input type="text" id="cc-email" tabindex="4" value="" placeholder="Manager's email" title="CC'S EMAIL" name="cc_email">
 								</div>
 								<select id="aia-sovereign-address-2" name="end-of-email2" class="dropdown-box">
-									<option value="@aia">@aia.co.nz</option>
+									<option value="@aia">@aia.com</option>
 									<option value="@sovereign">@sovereign.co.nz</option>
 								</select>
-                                <label id="manager-email-end" class="hide-email-label">@aia.co.nz</label>
+                                <label id="manager-email-end" class="hide-email-label">@aia.com</label>
 						</li>
 					</ul>	
 	<div class="error-msg">
