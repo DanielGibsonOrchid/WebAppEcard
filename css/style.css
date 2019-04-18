@@ -470,7 +470,6 @@ header {
   height: 52px;
   position: relative;
   z-index: 2;
-  padding-left: 230px;
 }
 /*header {
   background: #1f2e3b url(../img/interface/bg-header.jpg) no-repeat 50% -80px;
@@ -483,8 +482,9 @@ header {
   z-index: 2;
 }*/
 header div {
-  width: 910px;
+  width: 41px;
   margin: auto;
+  padding-right: 633px;
 }
 /*header .topshine {
   background: url(../img/interface/topshine.png) no-repeat 0px 0px;
@@ -581,9 +581,9 @@ a.btn:hover {
   min-width: 990px;
   overflow: hidden;
 }*/
-#intro.ack {
+/*#intro.ack {
   height: 240px;
-}
+}*/
 #intro {
   display: flex;
   position: relative;
@@ -652,9 +652,10 @@ a.btn:hover {
   text-transform: uppercase;
   font-size: 24px;
   text-transform: none;
+  color: #ffffff;
 }
 #intro #intro-inner-paragraph {
-  font-family: 'AIAEverest-Medium';
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #ffffff;
   font-size: 13px;
@@ -700,11 +701,13 @@ a.btn:hover {
   font-family: 'AIAEverest-Regular';
   font-weight: 700;
   line-height: 22px;
-  color: #ffffff;
+  color: #D31045;
   padding: 5px 12px;
   padding-right: 50px;
   display: inline-block;
-  background-color: #79b8b5;
+  background-color: #ffffff;
+  border: 3px solid #D31045;
+  /*background: url(../img/interface/right-arrow.png) no-repeat 0 0;*/
 }
 #main.ack ul li a i {
   margin-left: 15px;
@@ -713,9 +716,17 @@ a.btn:hover {
   margin-top: -9px;
   top: 50%;
 }
+/*.fa-angle-right:before{
+  content: "\f105";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}*/
 #main.ack ul li a:hover {
   text-decoration: none;
-  background-color: #1d384b;
+  background-color: #D31045;
+  color: #ffffff;
 }
 #main .rt {
   width: 582px;
@@ -957,6 +968,10 @@ a.btn:hover {
 #main #personalise #taglines ul#tag-wow .selected span {
   background-position: 0 -58px;
 }
+#main #personalise .thanks-for{
+  line-height: 16px;
+  height: 20px;
+}
 #main #personalise #taglines ul li {
   list-style: none;
   padding: 5px 20px 5px 0;
@@ -1091,7 +1106,8 @@ li#tagline-txt input[type=text] {
   font-weight: bold;
 }
 #main #personalise fieldset.collaborate {
-  background: url('../img/interface/first-ecard-background@2.jpg') 0 0 no-repeat;
+  background: url('../img/interface/first-ecard-background-v3.jpg') 0 0 no-repeat;
+  background-size: 582px 364px;
 }
 #main #personalise fieldset.collaborate input[type=text]:-moz-placeholder {
   color: #000000;
@@ -1118,7 +1134,8 @@ li#tagline-txt input[type=text] {
   color: #000000;
 }
 #main #personalise fieldset.drive {
-  background: url('../img/interface/second-ecard-background@2.jpg') 0 0 no-repeat;
+  background: url('../img/interface/second-ecard-background-v3.jpg') 0 0 no-repeat;
+  background-size: 582px 364px;
 }
 #main #personalise fieldset.drive input[type=text]:-moz-placeholder {
   color: #000000;
@@ -1145,7 +1162,8 @@ li#tagline-txt input[type=text] {
   color: #000000;
 }
 #main #personalise fieldset.integrity {
-  background: url('../img/interface/third-ecard-background@2.jpg') 0 0 no-repeat;
+  background: url('../img/interface/third-ecard-background-v3.jpg') 0 0 no-repeat;
+  background-size: 582px 364px;
 }
 #main #personalise fieldset.integrity label {
   color: #000000 !important;
@@ -1234,9 +1252,11 @@ li#tagline-txt input[type=text] {
   background-color: #D31044;
   color: #ffffff;
   line-height: 30px;
-  padding: 0 50px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  width: 132px;
+  box-shadow: 0px 0px white;
+  outline: 1px solid white;
 }
 #main #send ul li.recipient .input-holder {
   float: left;
