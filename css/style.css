@@ -624,7 +624,6 @@ a.btn:hover {
   font-size: 55px;
   color: #3c3c3c;
   margin-top: 0;
-  float: left;
   align-self: center;
 }
 #intro #intro-inner h1 span {
@@ -1255,8 +1254,7 @@ li#tagline-txt input[type=text] {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   width: 132px;
-  box-shadow: 0px 0px white;
-  outline: 1px solid white;
+  border: none;
 }
 #main #send ul li.recipient .input-holder {
   float: left;
@@ -1378,6 +1376,23 @@ li#tagline-txt input[type=text] {
   /* Style adjustments for viewports that meet the condition */
 }
 /* Print styles --------------------------------------------------------------------------------------------------------*/
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+  /* IE10+ specific styles go here */  
+  #main #personalise fieldset ul li label {
+    font-family: 'AIAEverest-Regular';
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    float: left;
+    line-height: 35px;
+    display: block;
+    margin-right: 5px;
+    margin-top: 4px;
+  }
+}
+
 @media print {
   * {
     background: transparent !important;
